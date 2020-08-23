@@ -24,10 +24,11 @@
 }
 
 .Face {
+  @include borders;
+  @include buttons;
   width: 52px;
   height: 52px;
-  font-size: 34px;
-  @include borders;
+  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
