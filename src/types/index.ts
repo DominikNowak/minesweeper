@@ -12,9 +12,19 @@ export enum CellValue {
 }
 
 export enum CellState {
-  open,
+  hidden,
   visible,
   flagged,
 }
 
 export type Cell = { value: CellValue; state: CellState };
+
+export enum Face {
+  smile = "😃",
+  oh = "😮",
+  lost = "😵",
+  won = "😎",
+  redFlag = "🚩",
+  explosion = "💥",
+  bomb = "💣",
+}
